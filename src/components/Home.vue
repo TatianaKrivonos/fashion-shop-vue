@@ -15,15 +15,15 @@
   export default {
     name: 'home',
     components: {
-      PageHeader,
-      Banner,
-      EcommerceSigns,
-      Featured,
-      MainSlider,
-      NewsLetter,
-      PhotoGallery,
-      Sale,
-      PageFooter
+      AppPageHeader: PageHeader,
+      AppBanner: Banner,
+      AppEcommerceSigns: EcommerceSigns,
+      AppFeatured: Featured,
+      AppMainSlider: MainSlider,
+      AppNewsLetter: NewsLetter,
+      AppPhotoGallery: PhotoGallery,
+      AppSale: Sale,
+      AppPageFooter: PageFooter
     }
   }
 </script>
