@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <app-banner></app-banner>
     <app-photo-gallery></app-photo-gallery>
     <app-quality></app-quality>
     <app-news-letter></app-news-letter>
