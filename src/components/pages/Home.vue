@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <app-quality></app-quality>
     <app-news-letter></app-news-letter>
   </div>
 </template>
