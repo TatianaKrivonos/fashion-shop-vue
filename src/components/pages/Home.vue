@@ -1,11 +1,11 @@
 <template>
-  <div class="">
-
+  <div class="home">
+    <app-news-letter></app-news-letter>
   </div>
 </template>
 <script>
   import Banner from '@/components/Banner.vue'
-  import EcommerceSigns from '@/components/EcommerceSigns.vue'
+  import Quality from '@/components/Quality.vue'
   import Featured from '@/components/Featured.vue'
   import MainSlider from '@/components/MainSlider.vue'
   import NewsLetter from '@/components/NewsLetter.vue'
@@ -16,7 +16,7 @@
     name: 'home',
     components: {
       AppBanner: Banner,
-      AppEcommerceSigns: EcommerceSigns,
+      AppQuality: Quality,
       AppFeatured: Featured,
       AppMainSlider: MainSlider,
       AppNewsLetter: NewsLetter,
