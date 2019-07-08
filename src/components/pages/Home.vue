@@ -24,7 +24,7 @@
       AppMainSlider: MainSlider,
       AppNewsLetter: NewsLetter,
       AppPhotoGallery: PhotoGallery,
-      AppSale: Sale,
+      AppSale: Sale
     }
   }
 </script>
