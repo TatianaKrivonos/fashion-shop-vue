@@ -3,6 +3,7 @@
     <app-main-slider></app-main-slider>
     <app-sale></app-sale>
     <app-info-cards></app-info-cards>
+    <app-deal></app-deal>
     <app-featured></app-featured>
     <app-banner></app-banner>
     <app-photo-gallery></app-photo-gallery>
@@ -19,6 +20,7 @@
   import PhotoGallery from '@/components/PhotoGallery.vue'
   import Sale from '@/components/Sale.vue'
   import InfoCards from '@/components/InfoCards.vue'
+  import Deal from '@/components/Deal.vue'
 
   export default {
     name: 'home',
@@ -30,7 +32,8 @@
       AppNewsLetter: NewsLetter,
       AppPhotoGallery: PhotoGallery,
       AppSale: Sale,
-      AppInfoCards: InfoCards
+      AppInfoCards: InfoCards,
+      AppDeal: Deal
     }
   }
 </script>
