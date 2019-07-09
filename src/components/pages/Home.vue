@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <app-main-slider></app-main-slider>
     <app-sale></app-sale>
     <app-info-cards></app-info-cards>
     <app-featured></app-featured>
