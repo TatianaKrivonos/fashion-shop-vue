@@ -5,8 +5,36 @@
     <p class="news__text">Get updated on new product releases and promotions</p>
   </div>
   <form action="post" class="news__form">
-    <input type="text" placeholder="email address" name="email" class="news__form-input news__form-input--email">
-    <input type="submit" value="submit" class="news__form-input news__form-input--btn">
+    <input type="email"
+           v-model="email"
+           @blur="$v.email.$touch()"
+           placeholder="email address"
+           name="email"
+           class="news__form-input news__form-input--email"
+    >
+    <input
+      type="submit"
+      value="submit"
+      class="news__form-input news__form-input--btn"
+
+    >
   </form>
 </section>
 </template>
+<script>
+  import { required, email } from 'vuelidate/lib/validators'
+  export default {
+    data () {
+      return {
+        email: '',
+        valid: false
+      }
+    },
+    validations: {
+      email: {
+        required,
+        email
+      }
+    }
+  }
+</script>
