@@ -4,7 +4,11 @@
     <p class="news__text">subscribe to newsletter</p>
     <p class="news__text">Get updated on new product releases and promotions</p>
   </div>
-  <form action="post" class="news__form">
+  <form
+    action="post"
+    class="news__form"
+    @submit.prevent="onSubmit"
+  >
     <input type="email"
            v-model="email"
            @blur="$v.email.$touch()"
@@ -16,7 +20,7 @@
       type="submit"
       value="submit"
       class="news__form-input news__form-input--btn"
-
+      :disabled="$v.$invalid"
     >
   </form>
 </section>
@@ -28,6 +32,11 @@
       return {
         email: '',
         valid: false
+      }
+    },
+    methods: {
+      onSubmit () {
+
       }
     },
     validations: {
