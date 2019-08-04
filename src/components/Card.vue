@@ -1,4 +1,5 @@
 <template>
+<div class="sale__card-col">
   <article class="product-card">
     <img src="" alt="product-card" class="product-card__img">
     <v-rating
@@ -10,6 +11,7 @@
     <p class="product-card__price">price</p>
     <button class="product-card__btn">add to cart</button>
   </article>
+</div>
 </template>
 <script>
   export default {

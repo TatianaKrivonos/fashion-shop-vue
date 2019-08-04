@@ -1,0 +1,28 @@
+.featured {
+  padding-top: 100px;
+  padding-bottom: 115px;
+
+  &__container {
+    margin: 0 auto;
+    width: 1200px;
+  }
+
+  &__title {
+    margin-bottom: 45px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  &__card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+  }
+
+  &__card-col {
+    width: 25%;
+    padding: 0 20px;
+  }
+}
