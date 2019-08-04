@@ -40,8 +40,14 @@ li {
 
 h1,
 h2,
-h3 {
+h3,
+p {
   margin: 0;
+}
+
+.v-rating,
+.v-icon {
+  padding: 0;
 }
 
 button,
