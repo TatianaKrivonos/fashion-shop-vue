@@ -1,0 +1,32 @@
+.photo-gallery {
+  padding-top: 160px;
+
+  &__header {
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+
+    span {
+      color: $fourth-color;
+    }
+  }
+
+  &__descr {
+    margin-bottom: 50px;
+    text-align: center;
+    color:  darken($main-color, 45%);
+  }
+
+  &__list {
+    margin: 0 4.5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    width: 16.66667%;
+    padding: 0 4.5px;
+  }
+}

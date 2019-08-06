@@ -1,11 +1,11 @@
 <template>
-<section class="photoGallery">
-  <div class="photoGallery__container">
-    <h2 class="photoGallery__header"><span>#</span>fashionshop</h2>
-    <p class="photoGallery__descr">tag your photos a chance to be featured i our instagram</p>
-    <ul class="photoGallery__list">
-      <li class="photoGallery__item" v-for="item of items">
-        <img :src="item" alt="photo">
+<section class="photo-gallery">
+  <div class="photo-gallery__container">
+    <h2 class="photo-gallery__header"><span>#</span>fashionshop</h2>
+    <p class="photo-gallery__descr">Tag your photos a chance to be featured i our instagram</p>
+    <ul class="photo-gallery__list">
+      <li class="photo-gallery__item" v-for="item of items">
+        <img :src="item.src" alt="photo">
       </li>
     </ul>
   </div>
@@ -16,12 +16,24 @@
     data () {
       return {
         items: [
-          '',
-          '',
-          '',
-          '',
-          '',
-          ''
+          {
+            src:'../assets/img/gallery/gallery1.jpg'
+          },
+          {
+            src:'../assets/img/gallery/gallery2.jpg'
+          },
+          {
+            src:'../assets/img/gallery/gallery3.jpg'
+          },
+          {
+            src:'../assets/img/gallery/gallery4.jpg'
+          },
+          {
+            src:'../assets/img/gallery/gallery5.jpg'
+          },
+          {
+            src:'../assets/img/gallery/gallery6.jpg'
+          }
         ]
       }
     }
