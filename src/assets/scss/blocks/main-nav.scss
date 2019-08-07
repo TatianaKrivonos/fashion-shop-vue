@@ -1,7 +1,16 @@
 .main-nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   &__list {
     display: flex;
+    width: 750px;
+    justify-content: space-around;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    font-weight: 600;
   }
 }

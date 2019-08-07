@@ -1,5 +1,23 @@
 .page-header {
+  padding: 20px 0;
+
   &__container {
     display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+  }
+
+  &__icons {
+    display: flex;
+
+    a {
+      display: inline-flex;
+      padding: 0 15px;
+    }
+
+    button {
+      padding: 0 15px;
+    }
   }
 }
