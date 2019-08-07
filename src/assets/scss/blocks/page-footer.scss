@@ -1,0 +1,57 @@
+.page-footer {
+  padding: 50px 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1140px;
+  }
+
+  &__logo {
+    margin-bottom: 50px;
+  }
+
+  &__copyright {
+    margin-top: auto;
+    color: darken($main-color, 40%);
+    font-size: 14px;
+  }
+
+  &__col {
+
+    li {
+      margin-bottom: 15px;
+
+      a,
+      p {
+        color: darken($main-color, 40%);
+        font-size: 14px;
+        text-transform: capitalize;
+      }
+    }
+
+    &:first-child {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__col-title {
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  &__col--contact {
+
+    li {
+      display: flex;
+
+      svg {
+        margin-right: 20px;
+      }
+    }
+  }
+}

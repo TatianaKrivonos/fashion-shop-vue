@@ -28,7 +28,7 @@
         </li>
       </ul>
     </div>
-    <div class="page-footer__col">
+    <div class="page-footer__col page-footer__col--contact">
       <h2 class="page-footer__col-title">Contact us</h2>
       <ul>
         <li v-for="contact of contacts">
