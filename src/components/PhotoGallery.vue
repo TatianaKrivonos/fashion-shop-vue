@@ -17,22 +17,22 @@
       return {
         items: [
           {
-            src:'../assets/img/gallery/gallery1.jpg'
+            src: require('../assets/img/gallery/gallery1.jpg')
           },
           {
-            src:'../assets/img/gallery/gallery2.jpg'
+            src: require('../assets/img/gallery/gallery2.jpg')
           },
           {
-            src:'../assets/img/gallery/gallery3.jpg'
+            src: require('../assets/img/gallery/gallery3.jpg')
           },
           {
-            src:'../assets/img/gallery/gallery4.jpg'
+            src: require('../assets/img/gallery/gallery4.jpg')
           },
           {
-            src:'../assets/img/gallery/gallery5.jpg'
+            src: require('../assets/img/gallery/gallery5.jpg')
           },
           {
-            src:'../assets/img/gallery/gallery6.jpg'
+            src: require('../assets/img/gallery/gallery6.jpg')
           }
         ]
       }
