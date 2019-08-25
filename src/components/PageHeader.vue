@@ -2,9 +2,7 @@
 <header class="page-header">
   <div class="page-header__container">
     <router-link to="/" class="page-header__logo">
-      <svg width="191" height="40">
-        <use xlink:href=""></use>
-      </svg>
+      <Logo width="191" height="40"/>
     </router-link>
     <nav class="page-header__main-nav main-nav">
       <ul class="main-nav__list">
@@ -34,7 +32,12 @@
 </header>
 </template>
 <script>
+import Logo from '@/assets/svg/logo.svg';
+
   export default {
+    components: {
+      Logo
+    },
     data (){
       return {
         links: [
