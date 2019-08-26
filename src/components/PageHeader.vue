@@ -2,7 +2,7 @@
 <header class="page-header">
   <div class="page-header__container">
     <router-link to="/" class="page-header__logo">
-      <Logo width="191" height="40"/>
+      <LogoSvg width="191" height="40"/>
     </router-link>
     <nav class="page-header__main-nav main-nav">
       <ul class="main-nav__list">
@@ -12,19 +12,13 @@
       </ul>
       <div class="page-header__icons">
         <a href="#">
-          <svg width="16" height="20">
-            <use xlink:href=""></use>
-          </svg>
+          <UserSvg width="16" height="20"/>
         </a>
         <button>
-          <svg width="16" height="20">
-            <use xlink:href=""></use>
-          </svg>
+          <SearchSvg width="16" height="20"/>
         </button>
         <a href="#">
-          <svg width="16" height="20">
-            <use xlink:href=""></use>
-          </svg>
+          <BagSvg width="16" height="20"/>
         </a>
       </div>
     </nav>
@@ -32,11 +26,17 @@
 </header>
 </template>
 <script>
-import Logo from '@/assets/svg/logo.svg';
+import LogoSvg from '@/assets/svg/logo.svg';
+import UserSvg from '@/assets/svg/user.svg';
+import SearchSvg from '@/assets/svg/search.svg';
+import BagSvg from '@/assets/svg/bag.svg';
 
   export default {
     components: {
-      Logo
+      LogoSvg,
+      UserSvg,
+      SearchSvg,
+      BagSvg
     },
     data (){
       return {
