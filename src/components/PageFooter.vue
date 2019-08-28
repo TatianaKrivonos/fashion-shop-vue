@@ -3,12 +3,12 @@
   <div class="page-footer__container">
     <div class="page-footer__col">
       <router-link to="/" class="page-footer__logo">
-        <svg width="191" height="40">
-          <use xlink:href=""></use>
-        </svg>
+        <svgicon width="191" height="40" :name="`logo`"/>
       </router-link>
       <ul class="page-footer__payment payment">
-        <li class="payment__item"></li>
+        <li class="payment__item" v-for="payment of payments">
+          <svgicon :name="payment.icon" :width="payment.width" :height="payment.height"/>
+        </li>
       </ul>
       <p class="page-footer__copyright">© 2018 ARTBEES All rights reserved.</p>
     </div>
@@ -32,9 +32,7 @@
       <h2 class="page-footer__col-title">Contact us</h2>
       <ul>
         <li v-for="contact of contacts">
-          <svg width="16" height="20">
-            <use v-bind="{'xlink:href': contact.icon}"></use>
-          </svg>
+          <svgicon :name="contact.icon" width="16" height="20"/>
           <p class="page-footer__col-descr">{{ contact.name }}</p>
         </li>
       </ul>
@@ -46,6 +44,23 @@
   export default {
     data () {
       return {
+        payments: [
+          {
+           icon: 'mastercard',
+           width: 41,
+           height: 32
+          },
+          {
+           icon: 'paypal',
+           width: 86,
+           height: 23
+          },
+          {
+           icon: 'visa',
+           width: 56,
+           height: 18
+          }
+        ],
         services: [
           {name: 'about us'},
           {name: 'f.a.q'},
@@ -59,9 +74,9 @@
           {name: 'pinterest'}
         ],
         contacts: [
-          {name: 'patricia c. amedee 4401', icon: 'img/'},
-          {name: '+99 (0) 101 0000 888', icon: 'img/'},
-          {name: 'info@yourdomain.com', icon: 'img/'}
+          {name: 'patricia c. amedee 4401', icon: 'location'},
+          {name: '+99 (0) 101 0000 888', icon: 'phone'},
+          {name: 'info@yourdomain.com', icon: 'email'}
         ]
       }
     }
