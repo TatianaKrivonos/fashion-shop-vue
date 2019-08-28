@@ -3,9 +3,7 @@
   <div class="quality__container">
     <ul class="quality__list">
       <li class="quality__item" v-for="item of items">
-        <svg :width="item.width" height="48">
-          <use v-bind="{'xlink:href': item.icon}"></use>
-        </svg>
+        <svgicon :name="item.icon" :width="item.width" height="48"/>
         <p>{{ item.descr }}</p>
       </li>
     </ul>
@@ -17,10 +15,10 @@
     data () {
       return {
         items: [
-          {descr: 'money back guarantee', icon: '', width: 71},
-          {descr: 'product quality', icon: '', width: 53},
-          {descr: 'fast shipping', icon: '', width: 48},
-          {descr: 'online support', icon: '', width: 43}
+          {descr: 'money back guarantee', icon: 'money', width: 71},
+          {descr: 'product quality', icon: 'quality', width: 53},
+          {descr: 'fast shipping', icon: 'shipping', width: 48},
+          {descr: 'online support', icon: 'support', width: 43}
         ]
       }
     }
