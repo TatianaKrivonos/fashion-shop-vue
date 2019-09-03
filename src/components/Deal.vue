@@ -3,12 +3,10 @@
   <div class="deal__container">
     <div class="deal__descr">
       <p class="deal__label">sale</p>
-      <p>Deal o the Day 30% on Dresses</p>
-      <p>pretty yhing floral skater dress</p>
-      <p>$28.00</p>
-      <div class="deal__timer">
-
-      </div>
+      <p class="deal__text">Deal o the Day 30% on Dresses</p>
+      <p class="deal__text">pretty yhing floral skater dress</p>
+      <p class="deal__text">$28.00</p>
+      <app-timer/>
       <button class="deal__btn">add to cart</button>
     </div>
     <div class="deal__img-wrap">
@@ -17,3 +15,12 @@
   </div>
 </div>
 </template>
+<script>
+  import Timer from '@/components/Timer.vue'
+  export default {
+    name: 'deal',
+    components: {
+      AppTimer: Timer
+    }
+  }
+</script>

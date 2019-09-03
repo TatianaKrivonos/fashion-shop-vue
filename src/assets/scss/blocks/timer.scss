@@ -1,0 +1,28 @@
+.timer {
+  display: flex;
+  margin-bottom: 50px;
+  // width: 540px;
+
+  &__box {
+    margin-right: 25px;
+    padding-top: 20px;
+    width: 117px;
+    height: 117px;
+    border: 1px solid #fff;
+
+    p {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__val {
+    font-size: 52px;
+    font-weight: 800;
+  }
+
+  &__label {
+    font-size: 13px;
+    font-weight: 800;
+  }
+}
