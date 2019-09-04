@@ -29,7 +29,7 @@
   export default {
     data () {
       return {
-        deadline: 'Sep 3, 2020 22:13:00',
+        deadline: 'Sep 3, 2020 22:13:00',
         days: '',
         hours: '',
         minutes: '',
@@ -42,6 +42,7 @@
       var ctx = this;
 
      // Countdown loop
+     // eslint-disable-next-line
       var x =  setInterval(function(){
 
        // Difference between the 2 dates
