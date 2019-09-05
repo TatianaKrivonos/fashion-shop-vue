@@ -1,14 +1,14 @@
 <template>
   <div class="home">
-    <app-main-slider></app-main-slider>
-    <app-sale></app-sale>
-    <app-info-cards></app-info-cards>
-    <app-deal></app-deal>
-    <app-featured></app-featured>
-    <app-banner></app-banner>
-    <app-photo-gallery></app-photo-gallery>
-    <app-quality></app-quality>
-    <app-news-letter></app-news-letter>
+    <app-main-slider/>
+    <app-sale/>
+    <app-info-cards/>
+    <app-deal/>
+    <app-featured/>
+    <app-banner/>
+    <app-photo-gallery/>
+    <app-quality/>
+    <app-news-letter/>
   </div>
 </template>
 <script>
