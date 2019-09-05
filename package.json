@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "gulp"
+    "server": "json-server --watch data.json"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -28,6 +28,7 @@
     "del": "^5.0.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "json-server": "^0.15.1",
     "material-design-icons-iconfont": "^5.0.1",
     "node-sass": "^4.12.0",
     "normalize.css": "^8.0.1",
