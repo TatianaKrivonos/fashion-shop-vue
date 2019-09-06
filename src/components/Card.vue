@@ -15,6 +15,9 @@
 </template>
 <script>
   export default {
+    props: {
+      card: Object
+    },
     data () {
       return {
         rating: 5
