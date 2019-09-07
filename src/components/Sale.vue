@@ -3,7 +3,7 @@
   <div class="sale__container">
     <h2 class="sale__title">sale poducts</h2>
     <div class="sale__card-wrap" >
-      <app-card v-for="card in cards" :key="card.id" :card="card"/>
+      <app-card/>
     </div>
   </div>
 </section>

@@ -38,6 +38,7 @@
     "svgo": "^1.1.0",
     "svgo-loader": "^2.1.0",
     "vue-cli-plugin-svg-sprite": "^1.0.0",
+    "vue-star-rating": "^1.6.1",
     "vue-svg-loader": "^0.12.0",
     "vue-template-compiler": "^2.6.10",
     "webpack-stream": "^5.2.1"
