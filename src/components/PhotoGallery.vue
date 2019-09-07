@@ -4,7 +4,7 @@
     <h2 class="photo-gallery__header"><span>#</span>fashionshop</h2>
     <p class="photo-gallery__descr">Tag your photos a chance to be featured i our instagram</p>
     <ul class="photo-gallery__list">
-      <li class="photo-gallery__item" v-for="item of items">
+      <li class="photo-gallery__item" v-for="item of items" :key="item.id">
         <img :src="item.src" alt="photo">
       </li>
     </ul>
