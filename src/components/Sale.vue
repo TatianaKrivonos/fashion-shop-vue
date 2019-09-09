@@ -3,7 +3,7 @@
   <div class="sale__container">
     <h2 class="sale__title">sale poducts</h2>
     <div class="sale__card-wrap" >
-      <app-card/>
+      <app-card />
     </div>
   </div>
 </section>
@@ -14,10 +14,5 @@
     components:{
       AppCard: Card
     },
-    data () {
-      return {
-        cards: []
-      }
-    }
   }
 </script>

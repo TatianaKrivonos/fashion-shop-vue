@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuelidate from 'vuelidate'
 import Vuex from 'vuex';
-import store from './store'
+import store from './store/store'
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import App from './App.vue'
 import router from './router'
