@@ -5,7 +5,7 @@ import store from './store/store'
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import App from './App.vue'
 import router from './router'
-import './assets/scss/style.scss'
+import '@/assets/scss/style.scss'
 import SvgIcon from '@/components/SvgIcon.vue'
 
 Vue.use(Vuex);

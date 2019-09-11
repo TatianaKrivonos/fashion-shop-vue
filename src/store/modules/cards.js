@@ -19,7 +19,13 @@ export default {
   getters: {
     allCards (state) {
       return state.cards
-    }
+    },
+    saleCards: state => {
+      return state.cards.filter(card => card.type === 'sale');
+    },
+    featuredCards: state => {
+      return state.cards.filter(card => card.type === 'featured');
+    },
   }
 }
 
