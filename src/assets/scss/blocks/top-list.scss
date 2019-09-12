@@ -1,0 +1,18 @@
+.top-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+
+    svg {
+      margin-right: 10px;
+    }
+
+    a {
+      color: $grey;
+    }
+  }
+}

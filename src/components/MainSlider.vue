@@ -78,7 +78,7 @@ export default {
   }
 
   .hooper {
-    height: calc(100vh - 84px);
+    height: calc(100vh - 170px);
   }
 </style>
 

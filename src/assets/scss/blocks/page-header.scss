@@ -1,5 +1,13 @@
 .page-header {
-  padding: 20px 0;
+
+  &__top {
+    padding: 20px 0;
+    border-bottom: 1px solid $light-grey;
+  }
+
+  &__bottom {
+    padding: 35px 0;
+  }
 
   &__container {
     display: flex;
