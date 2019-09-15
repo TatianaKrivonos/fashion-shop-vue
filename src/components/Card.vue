@@ -2,7 +2,7 @@
 <div class="product-card-wrap">
   <article class="product-card" >
   <div class="product-card__img">
-   <img :src="require(`@/assets/img${card.img}`)" alt="product-card">
+   <img :src="addImg" alt="product-card">
   </div>
   <star-rating v-model="rating"
                :star-size="15"
@@ -31,7 +31,9 @@
       card: Object
     },
     computed: {
-
+      addImg () {
+        return require('@/assets/img' + this.card.img)
+      }
     }
   }
 </script>
