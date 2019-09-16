@@ -1,6 +1,6 @@
 .featured {
-  padding-top: 100px;
-  padding-bottom: 115px;
+  padding-top: 200px;
+  padding-bottom: 85px;
 
   &__container {
     margin: 0 auto;
@@ -8,7 +8,8 @@
   }
 
   &__title {
-    margin-bottom: 45px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
     font-size: 40px;
     text-decoration: underline;
     text-transform: capitalize;

@@ -1,6 +1,6 @@
 .info-cards {
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 90px 0 130px;
     width: 1200px;
 
   &__container {
@@ -50,7 +50,7 @@
         }
 
         &:nth-child(3) {
-          margin-bottom: 30px;
+          margin-bottom: 20px;
           text-transform: uppercase;
           letter-spacing: 8px;
           font-size: 18px;
